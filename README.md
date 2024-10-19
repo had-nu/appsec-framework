@@ -1,8 +1,8 @@
-# Application Security Framework
+# Application Security Framework (ASF)
 
 ## Context
 
-*This repository is the result of my master's project aimed at creating an application security framework for implementing a comprehensive strategy to integrate secure practices throughout the software development lifecycle (SDLC). The project was developed in the context of the automotive retail sector, within a company with low security maturity.*
+*This repository is the outcome of my master's project aimed at creating an Application Security Framework for implementing a comprehensive strategy to integrate secure practices throughout the software development lifecycle (SDLC). The project was developed in the context of the automotive retail sector, within a company with low security maturity.*
 
 ## Repository Purpose
 
