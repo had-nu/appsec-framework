@@ -52,5 +52,46 @@ Through the **Application Security Roadmap (ASR)**, the organization can align t
 
 Finally, the **Application Security Posture Management System (ASPMS)** offers a layer of continuous governance, maintaining clear, centralized visibility over application security. By automating the detection and mitigation of vulnerabilities and ensuring constant compliance with established security policies, the ASPMS strengthens the organization’s ability to adapt quickly to new threats and maintain resilience in an ever-changing threat landscape.
 
+# Compliance with Standards and Regulations
+
+This Application Security Framework project is aligned with the key standards and regulations relevant to data protection and cybersecurity, including ISO 27001:2022, Portuguese legislation, and the General Data Protection Regulation (GDPR) of the European Union.
+
+### Portuguese Legislation
+
+The project considers the following legislation:
+
+- **Law No. 58/2019**: Law implementing the GDPR in Portugal, which adapts the national legal framework to the GDPR, complementing and specifying some provisions.
+- **Law No. 46/2018**: Cybersecurity Law, which establishes the legal framework for cybersecurity in Portugal.
+- **Law No. 109/2009**: Cybercrime Law, which defines computer crimes and the rules for evidence collection and international cooperation in criminal matters.
+- **Resolution of the Council of Ministers No. 41/2018**: Approves the minimum technical requirements for the networks and information systems that essential service operators must adopt.
+
+### Relevant Articles of the GDPR
+
+The following GDPR articles are particularly relevant to the project:
+
+- **Article 5**: Principles relating to the processing of personal data, including lawfulness, fairness, transparency, data minimization, and integrity.
+- **Article 25**: Data protection by design and by default, requiring organizations to implement appropriate technical and organizational measures.
+- **Article 32**: Security of processing, which requires the implementation of adequate measures to ensure a level of security appropriate to the risk.
+- **Article 33**: Notification of a personal data breach to the supervisory authority.
+- **Article 35**: Data protection impact assessment, mandatory when processing is likely to result in a high risk to the rights of individuals.
+- **Article 37**: Designation of the data protection officer (DPO).
+
+<!--
+### Compliance Considerations
+
+To ensure compliance with the mentioned legislation, the project implements the following measures:
+
+- **Data Mapping**: Identifying where personal data is stored and processed.
+- **Risk Assessment**: Conducting regular security risk assessments.
+- **Security Policies**: Documenting robust security policies.
+- **Access Controls**: Establishing strict access controls for sensitive data.
+- **Encryption**: Utilizing encryption to protect data at rest and in transit.
+- **Monitoring and Logging**: Implementing systems to detect and investigate security incidents.
+- **Incident Response Plan**: Developing and maintaining an effective incident response plan.
+- **Training**: Providing regular training on security and data protection for all staff.
+-->
+
+
+
 While practices may vary depending on the specific needs of each organization, there is a well-defined set of best practices common to many frameworks, providing broader coverage in executing a security program.
 
