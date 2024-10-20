@@ -1,0 +1,7 @@
+# Este /diretorio deve conter scripts referentes a:
+- Automação das ferramentas de segurança (SAST, DAST, IAST)
+- Integração das ferramentas de segurança
+- Orquestração das ferramentas de segurança
+- Infraestrutura como código (IaC)
+- Configurações seguras de API
+- etc.

@@ -1,0 +1,10 @@
+# Este /diretorio deve conter os modelos de referêcia de documentos como:
+- Modelação de ameaças
+- Requisitos de segurança mapeados (OWASP Top10, CWE Top 25, etc.)
+- Relatórios de métricas
+- Casos de uso de segurança
+- Casos de abuso
+- Bugtracker
+- Modelos de Maturidade
+- Análise de risco de aplicação
+- etc.
