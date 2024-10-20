@@ -2,18 +2,20 @@
 
 ## Context
 
-*This repository is the outcome of my master's project aimed at creating an Application Security Framework for implementing a comprehensive strategy to integrate secure practices throughout the software development lifecycle (SDLC). The project was developed in the context of the automotive retail sector, within a company with low security maturity.*
+This repository is the final deliverable of my master's project, centered on developing an Application Security Framework (ASF). The goal is to establish a comprehensive strategy for embedding secure practices throughout the Software Development Lifecycle (SDLC). The project was implemented in the automotive retail sector, within an organization that demonstrated a low level of security maturity.
 
 ## Repository Purpose
 
-*This repository houses the Application Security Program (ASP) within the Application Security Framework (ASF), outlining the vision, objectives, and strategies to ensure the development of secure, resilient applications. It combines policies, processes, practices, and tools designed to integrate security from the beginning of development to the end of the application lifecycle. These practices, alongside the security controls that drive them, help identify areas for improvement in application design or implementation that could potentially expose the application, the environment, or the company to significant risk.*
+This repository hosts the Application Security Program (ASP), part of the ASF, defining the vision, objectives, and strategies to ensure the development of secure, resilient applications by proactively addressing threats and minimizing vulnerabilities. It consolidates policies, processes, best practices, and tools aimed at embedding security throughout the entire application lifecycle. 
 
 ## Scope
 
-*The scope of this proposal includes integrating security practices throughout the SDLC for all internally developed and externally acquired applications. It covers evaluating the maturity of current security practices, defining a target maturity profile, and creating an implementation strategy to promote security awareness, training, and adherence to policies across the organization continuously.*
+The scope includes integrating security practices across the SDLC for both internally developed and third-party applications. This involves evaluating the maturity of existing security practices, defining a target security maturity level, and creating an implementation strategy that promotes a decentralized securty responsability sense, security training and culture building, and adherence to security policies throughout the organization.
 
-*To be successful, the program must ensure security practices are embedded from the planning and analysis phase through design, coding, testing, and into deployment and maintenance. This includes adopting best security practices like Threat Modeling and Application Risk Analysis, as well as introducing technologies for automating and orchestrating security analysis tools (e.g., SAST, DAST, IAST), and continuously verifying code components and supply chains to proactively identify and address vulnerabilities.*
+## Success Criteia
+
+To succeed, the program must ensure security practices are integrated from the planning and analysis phases, design, coding, testing, through the end of life. This includes implementing best practices as Threat Modeling and Application Risk Assessment, as well as introducing technologies for automating and orchestrating security testing tools (e.g., SAST, DAST, IAST). Additionally, the program must involve continuous verification of code components and supply chain dependencies to proactively identify and mitigate vulnerabilities post-release.
 
 ## Audience
 
-*Technology Managers, Executives, Product Owners, Development Teams, and Information Security Professionals.*
+Technology Managers, Executives, Product Owners, Development Teams, and Information Security Professionals.
