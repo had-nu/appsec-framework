@@ -26,19 +26,19 @@ This framework consists of a structured set of guidelines, standards, and polici
 
 The ASF is composed of an **Application Security Program (ASP)**, an **Application Security Roadmap (ASR)**, and an **Application Security Posture Management System (ASPMS)**, which operationalizes the final SDL implementation and maintenance.
 
-- **Application Security Program (ASP)**
+- ### Application Security Program (ASP)
 
     The ASP is a broad, strategic initiative within the organization aimed at implementing policies, processes, and technologies to reduce the intake of vulnerabilities in applications during their development lifecycle. It is by nature more expansive and strategic, focusing on fostering a security culture and implementing organizational policies and processes, while the ASPMS addresses its operationalization.
     
     Through this, the organization can establish governance standards and metrics for application security, build a strong and widespread security culture, define and organize security resources, model threats, and review security designs. Additionally, it implements best practices for secure coding, testing, and deployment, integrating security throughout the SDLC and ensuring its robustness until decommissioning.
 
-- **Application Security Roadmap (ASR)**
+- ### Application Security Roadmap (ASR)
 
     The ASR is essentially a detailed strategic plan guiding the organization in adopting and implementing the ASP. It acts as a tactical plan, serving as a roadmap for evolving application security within the organization. The ASR not only identifies the necessary steps for implementation but also sets timelines, resources, and responsibilities for each task. It operationalizes everything from the initial assessment of existing security practices to the deployment of new policies, processes, and tools proposed in the ASP. While the ASP defines the overarching framework, the ASR outlines the specific actions to be taken.
 
     The main function of the ASR is to ensure a smooth and structured transition from SDLC to SDL, minimizing internal resistance and ensuring collaboration among all stakeholders, including developers, project managers, and security teams. Additionally, it helps manage the impact of changes, ensuring they are implemented with minimal disruption to existing operations.
 
-- **Application Security Posture Management System (ASPMS)**
+- ### Application Security Posture Management System (ASPMS)
 
     The ASPMS is the operational approach to the ASR, using a set of tools focused on the continuous management and monitoring of application security throughout its lifecycle. This system ensures that the security measures established during ASR implementation are not only maintained but also continuously improved. It involves the identification and management of risks and vulnerabilities, remediation, compliance monitoring, regular audits, and security reporting, all automated and integrated with DevSecOps practices.
 
