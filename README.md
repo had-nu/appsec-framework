@@ -20,7 +20,7 @@ To succeed, the program must ensure security practices are integrated from the p
 
 Technology Managers, Executives, Product Owners, Development Teams, and Information Security Professionals.
 
-## ASF Components
+# ASF Components
 
 This framework consists of a structured set of guidelines, standards, and policies outlining how security should be integrated and managed in applications at a strategic level. It is designed to provide a consistent and repeatable foundation for implementing security across all stages of the **Secure Development Lifecycle (SDL)**, regardless of architecture (cloud, hybrid, client, or mobile). Its scope includes the processes and practices that support the **Application Security Program (ASP)**, serving as the technical and procedural basis for scalable and repeatable security initiatives.
 
@@ -44,7 +44,7 @@ The ASF is composed of an **Application Security Program (ASP)**, an **Applicati
 
     It provides centralized visibility into the security posture of all applications, enabling proactive risk-based management. The focus is on the continuous and operational management of application security, with an emphasis on real-time detection and mitigation of vulnerabilities. In other words, the ASPMS allows the organization to not only respond quickly to new threats but also adapt its security practices as needed, ensuring the security posture remains robust in the face of evolving threats and software development.
 
-    The ASPMS is closely aligned with the DevSecOps culture, ensuring that all personnel involved in the development process are aware of and continuously trained to follow the established security practices, tailored to the needs of each project.
+    The ASPMS is closely aligned with the **DevSecOps** culture, ensuring that all personnel involved in the development process are aware of and continuously trained to follow the established security practices, tailored to the needs of each project.
 
 This approach allows the organization to establish a resilient and adaptable security cycle, where each component of the Application Security Framework (ASF) works in an integrated manner to ensure the confidentiality, integrity, and continuous availability of applications and data.
 
