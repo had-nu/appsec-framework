@@ -1,4 +1,4 @@
-# Índice da Dissertação
+# INDEX
 
 ### Licença e Distribuição
 ### Agradecimentos <!--mover para o README.md'-->
@@ -10,7 +10,7 @@
 ### Lista de Acônimos e Terminologias
 
 # PART I: RESEARCH METHODOLOGY AND THEORETICAL BASIS
-- [Capítulo 1: Introdução](Part-I/Cap1Introducao.md)
+## - [Capítulo 1: Introdução](Part-I/Cap1Introducao.md)
     - [1.1 Enquadramento](Part-I/Enquadramento.md)
     - [1.2 Justificativa](Part-I/Justificativa.md)
     - [1.3 Objetivos](Part-I/Objetivos.md)
