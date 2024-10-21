@@ -9,7 +9,7 @@
 ### Sumário
 ### Lista de Acônimos e Terminologias
 
-## Part I: RESEARCH METHODOLOGY AND THEORETICAL BASIS
+# PART I: RESEARCH METHODOLOGY AND THEORETICAL BASIS
 - [Capítulo 1: Introdução](Part-I/Cap1Introducao.md)
     - [1.1 Enquadramento](Part-I/Enquadramento.md)
     - [1.2 Justificativa](Part-I/Justificativa.md)
@@ -83,7 +83,7 @@
         - CIS
     -->
 
-## Parte II: APPLICATION SECURITY PROGRAM (ASP)
+# PART II: APPLICATION SECURITY PROGRAM (ASP)
 - [Capítulo 3: Secure Development Lifecycle Integrity and Management: How to build and release More-Secure Code?](Part-II/SDL-Man.md)
 <!-- 
     - Application Security Toolbox (SAST, DAST, IAST, SCA, PENTESTING, RASP, WAF)
@@ -135,7 +135,7 @@
             - Continuous Training for Security Culture Building 
 -->
 
-## Parte III: APPLICATION SECURITY PROGRAM IMPLEMENTATION AND MANAGEMENT
+# PART III: APPLICATION SECURITY PROGRAM IMPLEMENTATION AND MANAGEMENT
 - [Capítulo 6: Building The Application Security Roadmap (ASR)](Part-III/ASP.md#application-security-roadmap-asr)
 <!--
     - Maturity Models and Security Posture
@@ -161,11 +161,11 @@
         - Feedback dos Pares
         - Security Scorecard
 -->
-## Parte IV: CONSIDERAÇÕES FINAIS
+# PART IV: FINAL CONSIDERATIONS
 - [Resultados e Discussão](Part-IV/resultados-e-discussao.md)
 - [Conclusão](Part-IV/Conclusao.md)
 - [Próximos Passos e Trabalhos Futuros](Part-IV/ProximosPassos.md)
 - [Referências](Part-IV/Referencias.md)
 - [Bibliografia](Part-IV/Bibliografia.md)
 - [Apêndices](Part-IV/Apendices.md)
-- [Anexoss](Part-IV/Anexo.md)
+- [Anexos](Part-IV/Anexo.md)
