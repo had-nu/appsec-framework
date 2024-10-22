@@ -1,6 +1,6 @@
 ## Considerations on the Challenges and Importance of Application Security
 
-Application Security (AppSec) has become a fundamental pillar in modern software development, permeating all aspects of the development life cycle and establishing itself as an indispensable component of an effective enterprise cybersecurity strategy. [1](#ref-1)
+Application Security (AppSec) has become a fundamental pillar in modern software development, permeating all aspects of the development life cycle and establishing itself as an indispensable component of an effective enterprise cybersecurity strategy. [[1]](#ref-1)
 
 Security breaches in applications can have devastating consequences, including the exfiltration of confidential data, reputational damage, and significant financial losses. Therefore, integrating security practices in the early stages of development is a crucial step towards ensuring the production of more reliable, resilient, and secure applications against cyberattacks.
 
@@ -16,14 +16,14 @@ IBM's 2023 Cost of a Data Breach Report highlights that organisations with high 
 
 By adopting a proactive stance in funding and adhering to Application Security projects, companies not only ensure continuous improvement of their security posture but also enhance the quality and reliability of their applications. [8] Mitigating vulnerabilities before they become real threats helps protect the organisation's reputation with clients and partners, reinforcing its commitment to cybersecurity, data protection, and the development of more secure and reliable software. [9]
 
-### Section Reference
+## Section References
 
 1. <a name="ref-1"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
 2. <a name="ref-2"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
 3. <a name="ref-3"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
 4. <a name="ref-4"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
-5. 
-6. 
-7. 
-8. 
-9. 
+5. <a name="ref-5"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
+6. <a name="ref-6"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
+7. <a name="ref-7"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
+8. <a name="ref-8"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
+9. <a name="ref-9"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com)
