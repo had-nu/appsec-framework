@@ -2,7 +2,7 @@
 
 Application Security (AppSec) has become a fundamental pillar in modern software development, permeating all aspects of the development life cycle and establishing itself as an indispensable component of an effective enterprise cybersecurity strategy. [[1]](#ref-1)
 
-Security breaches in applications  can lead to severe consequences consequences, including the exfiltration of confidential data, reputational damage, and significant financial losses. [[2]](#ref-2) [[3]](#ref-3) Therefore, integrating security practices in the early stages of development is a crucial step towards ensuring the production of more reliable, resilient, and secure applications against cyberattacks.
+Security breaches in applications  can lead to severe consequences consequences, including the exfiltration of confidential data, reputational damage, and significant financial losses. [[2]](#ref-2) [[3]](#ref-3) Therefore, integrating security practices in the early stages of development is a crucial step towards ensuring the production of more reliable, resilient, and secure applications against cyberattacks. In the context of evolving cyber threats, this practice emphasizes embedding security measures throughout the software development lifecycle (SDLC), moving away from traditional methodologies that often treated security as an afterthought.
 
 According to Veracode’s 2023 State of Software Security report, over 74% of applications analysed revealed at least one security flaw during checks conducted in the past 12 months. Of these, around 69% exhibited at least one vulnerability listed in the OWASP Top 10, and approximately 56% contained vulnerabilities featured in the CWE Top 25. Among these, 19.2% were classified as critical in severity according to the CVSS ranking. [[4]]
 
@@ -14,7 +14,15 @@ These statistics underscore not only the vulnerability of organisations in the f
 
 IBM's 2023 Cost of a Data Breach Report highlights that organisations with high adoption of integrated security practices saved an average of $1.68 million compared to those with little or no adoption. [[8]] Meanwhile, Gartner's 2024 cybersecurity trends report predicts that by 2027, half of CISOs (Chief Information Security Officers) in large corporations will have implemented secure-by-design strategies to optimise the acceptance of control measures. [[9]]
 
-By adopting a proactive stance in funding and adhering to Application Security projects, companies not only ensure continuous improvement of their security posture but also enhance the quality and reliability of their applications. [[10]] Mitigating vulnerabilities before they become real threats helps protect the organisation's reputation with clients and partners, reinforcing its commitment to cybersecurity, data protection, and the development of more secure and reliable software. [[11]]
+The practice of Application Security is heavily influenced by the individuals involved in the development process. In this context, security teams should be regarded as strategic partners in the development lifecycle. The expertise of these teams must be utilised to identify and assess security risks, as well as to define and implement appropriate control measures. 
+
+A lack of adequate training, the absence of a programme that encourages security-minded behaviour, and failure to adhere to security policies can lead to human errors, such as the implementation of insecure code or poor management of sensitive data within organisations. Wherefore, fostering a culture of security awareness within development teams is crucial, as it empowers developers to proactively identify and mitigate risks, thereby strengthening overall application security.
+
+According to Gartner, the implementation of Security Behaviour and Culture Programmes (SBCPs) has proven effective in mitigating the impact of employees' unsafe behaviours. Rather than solely focusing on raising awareness, promoting behavioural changes through the company’s culture presents a more promising approach to reducing cybersecurity risks. Organisations that adopt SBCPs have seen improved adherence to security controls by employees, a reduction in unsafe practices, and increased agility and efficiency in implementing security measures.
+
+By adopting a proactive stance in funding and adhering to application security projects, organizations can not only improve their security posture but also enhance operational efficiency. This approach facilitates faster time-to-market while maintaining strong defenses against cyber threats. [[?]]
+
+Prioritizing security from the outset and mitigating vulnerabilities before they become real threats help protect the organization's reputation with customers and partners. It reinforces the commitment to cybersecurity and data protection, resulting in more secure and reliable software by the end of the process. [[?]]
 
 ## Section References
 
