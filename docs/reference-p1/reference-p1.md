@@ -1,14 +1,14 @@
 <!-- Este /diretorio deve listar todas as referências e bibliografias utilizadas nesta parte do projeto, com certo nível de detalhamento e links de acesso. -->
 # Reference
-[1-REF-1](<a id="https://medium.com/cyber-security-advocacy/guide-for-an-effective-application-security-program-05317d7af8a0">Nome da referência</a>)
-[2-REF-2]()
-[3-REF-3]()
-[4-REF-4]()
-[5-REF-5]()
-[6-REF-6]()
-[7-REF-7]()
-[8-REF-8]()
-[9-REF-9]()
+[1](<a id="https://medium.com/cyber-security-advocacy/guide-for-an-effective-application-security-program-05317d7af8a0">Nome da referência</a>)
+[2]()
+[3]()
+[4]()
+[5]()
+[6]()
+[7]()
+[8]()
+[9]()
 
 [10 REF-]
 [11 REF-]

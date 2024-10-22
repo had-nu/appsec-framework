@@ -19,4 +19,5 @@ By adopting a proactive stance in funding and adhering to Application Security p
 teste
 <p style="text-align: justify;">
     Este texto será justificado no GitHub.
+    By adopting a proactive stance in funding and adhering to Application Security projects, companies not only ensure continuous improvement of their security posture but also enhance the quality and reliability of their applications. [8] Mitigating vulnerabilities before they become real threats helps protect the organisation's reputation with clients and partners, reinforcing its commitment to cybersecurity, data protection, and the development of more secure and reliable software. [9]
 </p>
