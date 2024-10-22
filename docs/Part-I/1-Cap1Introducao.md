@@ -18,7 +18,7 @@ By adopting a proactive stance in funding and adhering to Application Security p
 
 ## Section References
 
-1. <a name="ref-1"></a>Systematic Literature Review on Security Risks and its Practices in Secure Software Development(https://ieeexplore.ieee.org/document/9669954) <!-- REF-34 -->
+1. <a name="ref-1"></a>[Systematic Literature Review on Security Risks and its Practices in Secure Software Development](https://ieeexplore.ieee.org/document/9669954) <!-- REF-34 -->
 2. <a name="ref-2"></a>[Bypass testing of Web applications](https://ieeexplore.ieee.org/document/1383117) <!-- REF-38 -->
 3. <a name="ref-3"></a>[Vulnerability & attack injection for web applications](https://ieeexplore.ieee.org/document/5270349) <!-- REF-39 -->
 4. <a name="ref-4"></a>[Título do artigo científico](https://link-para-o-artigo-cientifico.com) <!-- REF- -->
