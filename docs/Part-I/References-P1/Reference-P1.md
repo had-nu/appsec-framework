@@ -1,6 +1,6 @@
 <!-- Este /diretorio deve listar todas as referências e bibliografias utilizadas nesta parte do projeto, com certo nível de detalhamento e links de acesso. -->
 # Reference
-[1](<a id="https://medium.com/cyber-security-advocacy/guide-for-an-effective-application-security-program-05317d7af8a0">Nome da referência</a>)
+[1]()
 [2]()
 [3]()
 [4]()
