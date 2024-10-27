@@ -1,1 +1,0 @@
-## Research Methodology and Strategy
