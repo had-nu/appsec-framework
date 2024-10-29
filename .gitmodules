@@ -1,0 +1,3 @@
+[submodule "scripts/Automated-AppSec-Verify-CICD-Pipelines"]
+	path = scripts/Automated-AppSec-Verify-CICD-Pipelines
+	url = https://github.com/had-nu/Automated-AppSec-Verify-CICD-Pipelines
