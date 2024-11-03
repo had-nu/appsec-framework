@@ -5,8 +5,8 @@ A comprehensive approach to security involves embedding security practices from 
 
 ## Section References
 
-1. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-2. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-3. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-4. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-5. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+1. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+2. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+3. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+4. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+5. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->

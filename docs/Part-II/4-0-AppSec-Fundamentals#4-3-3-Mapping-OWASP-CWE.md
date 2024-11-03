@@ -1,0 +1,43 @@
+## 4.3.3 Interseções Críticas entre OWASP Top 10 e CWE Top 25 para Vulnerabilidades de Segurança em Aplicações Web <!-- transformar em tabela para facilitar a leitura e a consulta -->
+
+Ao cruzar as listas atualizadas das vulnerablidades mais comuns do OWASP Top 10 (2021) e do CWE Top 25 (2023), é possível ter uma visão unificada dos riscos mais críticos para a segurança de aplicações, o que permite que desenvolvedores e arquitetos priorizem controles adequadamente. A tabela a seguir alinha as entradas relevantes do CWE Top 25 (2023) com a lista do OWASP Top 10, fornecendo uma visão abrangente de como as duas listas se relacionam entre si para fornecer insights sobre as fraquezas de segurança mais críticas no desenvolvimento de software.
+
+| OWASP Vulnerability | OWASP Description | CWE (2023) | CWE Description | CWE Rank |
+|---------------------|-------------------|------------|-----------------|----------|
+| A01 Broken Access Control | Access controls enforce policies so that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure or modification, destruction of data, or performing a business function outside the user's limits. | CWE-862 | Missing Authorization | 11 |
+| | | CWE-306 | Missing Authentication for Critical Function | 20 |
+| | | CWE-269 | Improper Privilege Management | 22 |
+| | | CWE-863 | Incorrect Authorization | 24 |
+| A02 Cryptographic Failures | Previously known as Sensitive Data Exposure, Cryptographic Failures involve protecting data in transit and at rest. This includes passwords, credit card numbers, health records, personal information, and business secrets that require extra protection, especially if that data falls under privacy laws or regulations. | CWE-798 | Use of Hard-coded Credentials | 18 |
+| A03 Injection | Injection occurs when untrusted data is sent to an interpreter as part of a command or query, tricking the interpreter into executing unintended commands or accessing data without proper authorization. | CWE-79 | Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') | 2 |
+| | | CWE-89 | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') | 3 |
+| | | CWE-78 | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') | 5 |
+| | | CWE-77 | Improper Neutralization of Special Elements used in a Command ('Command Injection') | 16 |
+| | | CWE-94 | Improper Control of Generation of Code ('Code Injection') | 23 |
+| A04 Insecure Design | A new category focusing on risks related to design flaws. It requires using threat modeling, secure design patterns and principles, and reference architectures. | CWE-20 | Improper Input Validation | 6 |
+| | | CWE-787 | Out-of-bounds Write | 1 |
+| | | CWE-416 | Use After Free | 4 |
+| | | CWE-125 | Out-of-bounds Read | 7 |
+| | | CWE-476 | NULL Pointer Dereference | 12 |
+| | | CWE-190 | Integer Overflow or Wraparound | 14 |
+| | | CWE-119 | Improper Restriction of Operations within the Bounds of a Memory Buffer | 17 |
+| A05 Security Misconfiguration | This includes missing security hardening, improperly configured permissions, unnecessary features enabled, and unchanged default accounts or passwords. | CWE-276 | Incorrect Default Permissions | 25 |
+| A06 Vulnerable and Outdated Components | This includes any software that is vulnerable, unsupported, or out of date. | - | - | - |
+| A07 Identification and Authentication Failures | This occurs when a user's identity, authentication, or session management is not properly handled, allowing attackers to exploit passwords, keys, or session tokens. | CWE-287 | Improper Authentication | 13 |
+| A08 Software and Data Integrity Failures | This refers to code and infrastructure that fails to protect against integrity violations, including software updates, critical data, and CI/CD pipelines without verification. | CWE-502 | Deserialization of Untrusted Data | 15 |
+| A09 Security Logging and Monitoring Failures | This includes errors in detecting, escalating, and responding to active breaches. Without proper logging and monitoring, breaches cannot be detected. | - | - | - |
+| A10 Server Side Request Forgery (SSRF) | SSRF occurs when a web application fetches a remote resource without validating the user-supplied URL, potentially allowing attackers to coerce the application to send crafted requests to unexpected destinations. | CWE-918 | Server-Side Request Forgery (SSRF) | 19 |
+| - | - | CWE-22 | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') | 8 |
+| - | - | CWE-352 | Cross-Site Request Forgery (CSRF) | 9 |
+| - | - | CWE-434 | Unrestricted Upload of File with Dangerous Type | 10 |
+| - | - | CWE-362 | Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') | 21 |
+
+É importante observar que, embora não haja uma correspondência direta com algumas vulnerablidades do OWASP Top 10,  algumas entradas do CWEs perpassam uma mesma categoria. Por exemplo, CWEs de natureza arquitetural e de lógica, que envolvem falhas estruturais e arquiteturais desde o início do desenvolvimento, podem se relacionar com Design Inseguro (A04). Embora o "Design Inseguro" seja um conceito amplo, o foco está em vulnerabilidades onde a causa raiz está na falta de consideração de princípios de segurança durante o projeto do sistema. Por exemplo, é possível relacionar "Out-of-bounds Write" (CWE-787) e "Use After Free" (CWE-416) com a categoria A04 Insecure Design, pois ambas as vulnerabilidades são frequentemente resultado de decisões de design tomadas durante o processo de desenvolvimento de software. [ref-] Elas representam falhas fundamentais na forma como a memória é gerenciada e acessada, o que está diretamente relacionado ao design do sistema. Vulnerabilidades de memória como estas são frequentemente introduzidas devido à falta de consideração de segurança durante o design. [ref-]
+
+## Section References
+
+1. <a name="ref-?"></a>[OWASP Top 10](https://owasp.org/Top10/) <!-- REF-? -->
+2. <a name="ref-?"></a>[CWE TOP 25 Most Dangerous Software Errors](https://www.sans.org/top25-software-errors/) <!-- REF-? -->
+3. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+4. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+5. <a name="ref-?"></a>[NOME DA REFERENCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
