@@ -159,13 +159,13 @@
     - [13.2 Anti-Tampering (Code Signing, Obfuscation)](Part-I/3-2-AppSec-Fundamentals.md#anti-tampering-code-signing-obfuscation)
 
 - [Capítulo 14: Challenges and Limitations](Part-III/11-0-Cap11-Challenges-Limitations.md) <!-- marcar bem como supera-los -->
-        - [14.1 Cultural Resistance and Organizational Barriers]()
-        - [14.2 Lack of Security Assurance and Scope Creep]()
+    - [14.1 Cultural Resistance and Organizational Barriers]()
+    - [14.2 Lack of Security Assurance and Scope Creep]()
 
 # PART IV: FINAL CONSIDERATIONS
-- [Capítulo 14: Resultados, Discussão e Conclusão](Part-IV/resultados-e-discussao.md)
-- [Capítulo 15: Conclusão](Part-IV/Conclusao.md)
-- [Capítulo 16: Future Trends](Part-IV/ProximosPassos.md)
+- [Capítulo 15: Resultados, Discussão e Conclusão](Part-IV/resultados-e-discussao.md)
+- [Capítulo 16: Conclusão](Part-IV/Conclusao.md)
+- [Capítulo 17: Future Trends](Part-IV/ProximosPassos.md)
 - [References](Part-IV/Referencias.md)
 - [Bibliografia](Part-IV/Bibliografia.md)
 - [Apendix](Part-IV/Apendices.md)
