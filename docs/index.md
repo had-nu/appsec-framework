@@ -1,13 +1,13 @@
 # INDEX
 
-### Licença e Distribuição
-### Agradecimentos <!--mover para o README.md'-->
-### Declaração de Integridade
-### Lista de Imagens
-### Lista de Tabelas
-### Resumo e Abstract
-### Sumário
-### Lista de Acônimos e Terminologias
+### i. Licença e Distribuição
+### ii. Agradecimentos <!--mover para o README.md'-->
+### iii. Declaração de Integridade
+### iv. Lista de Imagens
+### v. Lista de Tabelas
+### vi. Resumo e Abstract
+### vii. Sumário
+### viii. Lista de Acônimos e Terminologias
 
 # PART I: INTRODUCTION AND GENERAL CONTEXT
 - [Capítulo 1: Introdução](Part-I/1-0-Cap1-Introducao.md) <!-- Última parte -->
@@ -23,39 +23,38 @@
     - [3.1 Fundamentos da Segurança Cibernética](Part-I/3-0-Cap3-Literatura-Rev.md#3-1-0-CS-Fundamentos.md)
         - [3.1.1 C.I.A. Triad](Part-I/3-1-CS-Fundamentos.md#cia-triad)
 <<<<<<< HEAD
-        - [3.1.2 Threat, Vulnerability and Risk](Part-I/3-1-CS-Fundamentos.md#threat)
-            - [3.1.2.1 Definitions of Threat, Vulnerability and Risk]()
-            - [3.1.2.2 Likelihood vs Impact](Part-I/3-1-CS-Fundamentos.md#likelihood-vs-impact)
-            - [3.1.2.3 Risk Tolerance vs Risk Appetite](Part-I/3-1-CS-Fundamentos.md#risk-tolerance-vs-risk-appetite)
-        - [3.1.3 Secure Software Development Lifecycle - SDLC](Part-I/3-1-CS-Fundamentos.md#SSDLC)
-    - [3.2 Architectural and Defense Principles in Cybersecurity](Part-I/3-1-CS-Fundamentos.md#cyber-security-architecture)
-        - [3.2.1 Cyber Security Architecture]()
-            - [3.2.1.1 Zero Trust Architecture](Part-I/3-1-CS-Fundamentos.md#zero-trust-architecture)
-            - [3.2.1.2 Well-Architected Framework (WAF)](Part-I/3-1-CS-Fundamentos.md#well-architected-framework-waf)
-            - [3.2.1.3 Defense in Depth - DiD](Part-I/3-2-AppSecFundamentals.md#defense-in-depth)
+        - [3.1.2 Threat, Vulnerability and Risk Definitions](Part-I/3-1-CS-Fundamentos.md#threat)
+        - [3.1.3 Likelihood vs Impact](Part-I/3-1-CS-Fundamentos.md#likelihood-vs-impact)
+        - [3.1.4 Risk Tolerance vs Risk Appetite](Part-I/3-1-CS-Fundamentos.md#risk-tolerance-vs-risk-appetite)
+        - [3.1.5 Architectural and Defense Principles in Cybersecurity](Part-I/3-1-CS-Fundamentos.md#cyber-security-architecture)
+            - [3.1.5.1 Cyber Security Architecture]()
+            - [3.1.5.2 Zero Trust Architecture](Part-I/3-1-CS-Fundamentos.md#zero-trust-architecture)
+            - [3.1.5.3 Well-Architected Framework (WAF)](Part-I/3-1-CS-Fundamentos.md#well-architected-framework-waf)
+            - [3.1.5.4 Defense in Depth - DiD](Part-I/3-2-AppSecFundamentals.md#defense-in-depth)
     
 - [Capítulo 4: Fundamentos da Segurança de Aplicações](Part-I/3-2-0-AppSec-Fundamentals.md)
-    - [4.1 Secure Development Principles](Part-I/3-2-0-AppSec-Fundamentals.md#3-2-1-0-secure-dev-principles.md)
-        - [4.1.1 Why Secure Code Metters: Secure Code Practices](Part-I/3-2-AppSec-Fundamentals#3-2-1-1-secure-code-practices.md)
-            - [4.1.1.1 Code Review and Code Reuse](Part-I/3-2-AppSec-Fundamentals.md#code-review)
-            - [4.1.1.2 Vulnerability Databases](Part-I/3-2-AppSec-Fundamentals.md#vulnerability-databases)
-        - [4.1.2 Security Controls for Code and Security Integration](Part-I/3-2-AppSec-Fundamentals.md#security-controls-for-code)
-            - [4.1.2.1 Development Strategy and Models](Part-I/3-2-AppSec-Fundamentals.md#development-strategy-and-plan)
-                - [i. CI/CD and DevOps](Part-I/3-2-ppSec-Fundamentals.md#ci-cd)
-                - [ii. Build Security in DevOps Pipelines - DevSecOps](Part-I/AppSec-Fundamentals.md#devsecops)
-        - [4.1.3 From Right to the Left: Introducing Shift-left Security]()
-            - [4.1.3.1 Benefits of Early Security Integration]()
+    - [4.1 Secure Software Development Lifecycle - SDLC](Part-I/3-1-CS-Fundamentos.md#SSDLC)
+        - [4.1.1 Secure Development Principles](Part-I/3-2-0-AppSec-Fundamentals.md#3-2-1-0-secure-dev-principles.md)
+        - [4.1.2 Why Secure Code Metters: Secure Code Practices](Part-I/3-2-AppSec-Fundamentals#3-2-1-1-secure-code-practices.md)
+            - [4.1.2.1 Code Review and Code Reuse](Part-I/3-2-AppSec-Fundamentals.md#code-review)
+            - [4.1.2.2 Vulnerability Databases](Part-I/3-2-AppSec-Fundamentals.md#vulnerability-databases)
+        - [4.1.3 Security Controls for Code and Security Integration](Part-I/3-2-AppSec-Fundamentals.md#security-controls-for-code)
+        - [4.1.4 Development Strategy and Models](Part-I/3-2-AppSec-Fundamentals.md#development-strategy-and-plan)
+            - [4.1.4.1 CI/CD and DevOps](Part-I/3-2-ppSec-Fundamentals.md#ci-cd)
+            - [4.1.4.2 Build Security in DevOps Pipelines - DevSecOps](Part-I/AppSec-Fundamentals.md#devsecops)
+        - [4.1.5 From Right to the Left: Introducing Shift-left Security]()
+            - [4.1.5.1 Benefits of Early Security Integration]()
                 - [i Improveing Compliance: Applicaiton Security Controls Library]()
                 - [ii Enhanced Security and Risk Management]()
                 - [iii Faster Time to Market]()
                 - [iv Cost Efficiency]()
-            - [4.1.3.2 Secure-by-Design Principles]()
-                - [i Least Privilege](Part-I/3-2-AppSecFundamentals.md#least-privilege)
-                - [ii Segregation of Duties (SoD)](Part-I/3-2-AppSecFundamentals.md#segregation-of-duties-sod)
-                - [iii Identity and Access Control Management (IAM)](Part-I/3-2-AppSecFundamentals.md#identity-and-access-control-management-iam)
-                - [iv Infrastructure as Code (IaC)](Part-I/3-2-AppSecFundamentals.md#infrastructure-as-code-iac)
-                - [v Threat Modelling](Part-I/3-2-AppSecFundamentals.md#threat-modelling)
-                - [vi API and Web Service Security](Part-I/3-2-AppSecFundamentals.md#api-and-web-service)
+    - [4.2 Secure-by-Design Principles]()
+        - [4.2.1 Least Privilege](Part-I/3-2-AppSecFundamentals.md#least-privilege)
+        - [4.2.2 Segregation of Duties (SoD)](Part-I/3-2-AppSecFundamentals.md#segregation-of-duties-sod)
+        - [4.2.3 Identity and Access Control Management (IAM)](Part-I/3-2-AppSecFundamentals.md#identity-and-access-control-management-iam)
+        - [4.2.4 Infrastructure as Code (IaC)](Part-I/3-2-AppSecFundamentals.md#infrastructure-as-code-iac)
+        - [4.2.5 Threat Modelling](Part-I/3-2-AppSecFundamentals.md#threat-modelling)
+        - [4.2.6 API and Web Service Security](Part-I/3-2-AppSecFundamentals.md#api-and-web-service)
             
 - [Capítulo 5: Governação, Cultura e Modelos Organizacionais de Segurança]()
     - [5.1 Cyber Security Governance](Part-I/AppSec-Fundamentals.md#cyber-security-governance)
