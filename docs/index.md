@@ -116,9 +116,9 @@
             - [9.2.3.2 Incident Response Automation]()
             - [9.2.3.3 Runtime Protection Orchestration]()
             - [9.2.3.4 Real-time Threat Intelligence Feeds]()
-        - [9.2.4 Indentity and Access Management (IAM)]()
-            - [9.2.4.1 Single Sign-On (SSO)]()
-            - [9.2.4.2 MFA]()
+        - [9.2.4 Indentity and Access Management - IAM]()
+            - [9.2.4.1 Single Sign-On - SSO]()
+            - [9.2.4.2 Multi-Factor Authentication - MFA]()
             - [9.2.4.3 Session Management]()
         - [9.2.5 Cryptography and Data Protection]()
             - [9.2.5.1 Centralized Secrets Management]()
@@ -129,7 +129,7 @@
 # PART IV: APPLICATION SECURITY PROGRAM IMPLEMENTATION AND MANAGEMENT
 - [Capítulo 10: Building The Application Security Roadmap (ASR)](Part-III/7-0-Cap7-building-ASR.md#application-security-roadmap-asr)
     - [10.1 Maturity Models and Security Posture]()
-        - [10.1.1 Security Low-Maturity Handling]()
+        - [10.1.1 Handling Low-Maturity Security]()
         - [10.1.2 Identifing gaps to plan the future]()
 
 - [Capítulo 11: Training Paths](Part-III/8-0-Cap8-training-paths.md#)
