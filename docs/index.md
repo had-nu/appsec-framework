@@ -17,7 +17,7 @@
     - [1.2 Justificativa](Part-I/1-2-Justificativa.md)
     - [1.3 Objetivos](Part-I/1-3-Objetivos.md)
     - [1.4 Estrutura do Documento](Part-I/1-4-Estrutura.md)
-<details>
+</details>
 - [Capítulo 2: Metodologia de Investigação](Part-I/2-0-CAP2-Metodologia.md) <!-- Última parte -->
 
 # PART II: STATE OF THE ART AND THEORETICAL BASIS
