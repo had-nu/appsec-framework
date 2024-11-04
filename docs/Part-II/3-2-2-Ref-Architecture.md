@@ -1,4 +1,4 @@
-## 5.3 Standards, Regulations, Requirements and Reference Architecture <!-- INCOMPLETO E INCONSISTENTE -->
+## 3.2.2 Arquitetura de Referência <!-- INCOMPLETO E INCONSISTENTE -->
 
 To cultivate a culture of security, organizations should develop clear security policies that outline practices and standards for secure software development. These policies must be informed by industry best practices and regulatory compliance, particularly in sectors handling sensitive data, such as finance and healthcare. [[?](#ref-?)] [[?](#ref-?)]
 
