@@ -2,7 +2,7 @@
 
 Ao cruzar as listas atualizadas das vulnerablidades mais comuns do OWASP Top 10 (2021) e do CWE Top 25 (2023),[[1](#ref-1)] [[2](#ref-2)] é possível ter uma visão unificada dos riscos mais críticos para a segurança de aplicações, o que permite que desenvolvedores e arquitetos priorizem controles adequadamente. A tabela a seguir alinha as entradas relevantes do CWE Top 25 com a lista do OWASP Top 10, fornecendo uma visão abrangente de como as duas listas se relacionam entre si para fornecer insights sobre as fraquezas de segurança mais críticas no desenvolvimento de software.
 
-| OWASP Vulnerability | OWASP Description | CWE (2023) | CWE Description | CWE Rank |
+| OWASP Top 10 Vulnerability | OWASP Description | CWE Top 25 | CWE Description | CWE Rank |
 |---------------------|-------------------|------------|-----------------|----------|
 | A01 Broken Access Control | Access controls enforce policies so that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure or modification, destruction of data, or performing a business function outside the user's limits. | CWE-862 | Missing Authorization | 11 |
 | | | CWE-306 | Missing Authentication for Critical Function | 20 |
