@@ -1,4 +1,4 @@
-## 4.3.3 Interseções Críticas entre OWASP Top 10 e CWE Top 25 para Vulnerabilidades de Segurança em Aplicações Web <!-- falta colocar na planilha de referências do Notero -->
+## 4.3.3 Interseções Críticas entre OWASP Top 10 e CWE Top 25 para Vulnerabilidades de Segurança em Aplicações Web <!-- colocar na planilha de referências do Notero; verificar itens individualmente -->
 
 Ao cruzar as listas atualizadas das vulnerablidades mais comuns do OWASP Top 10 (2021) e do CWE Top 25 (2023),[[1](#ref-1)] [[2](#ref-2)] é possível ter uma visão unificada dos riscos mais críticos para a segurança de aplicações, o que permite que desenvolvedores e arquitetos priorizem controles adequadamente. A tabela a seguir alinha as entradas relevantes do CWE Top 25 com a lista do OWASP Top 10, fornecendo uma visão abrangente de como as duas listas se relacionam entre si para fornecer insights sobre as fraquezas de segurança mais críticas no desenvolvimento de software.
 
@@ -43,9 +43,7 @@ Ao cruzar as listas atualizadas das vulnerablidades mais comuns do OWASP Top 10 
 
 Outra observação importante diz respeito à categoria A09 (Security Logging and Monitoring Failures), do OWASP Top 10 2021, que não tem correspondência direta no CWE Top 25 de 2023 principalmente porque aborda práticas de segurança operacional em vez de vulnerabilidades de código específicas. A09 foca em processos como configuração de logging e monitoramento, que são difíceis de capturar em uma única fraqueza de código. Essas falhas geralmente não são diretamente exploráveis, mas sua ausência ou falha pode dificultar a detecção e a resposta a ataques em andamento.[[5](#ref-5)] [[6](#ref-6)] Por exemplo, se um sistema não estiver registrando eventos críticos, um ataque pode passar despercebido, permitindo que um invasor atue sem ser notado.  
 
-O CWE Top 25 prioriza fraquezas técnicas mensuráveis, enquanto o OWASP inclui A09 para destacar a importância dessas práticas operacionais. Embora existam CWEs relacionadas, como CWE-778 (Insufficient Logging), elas não figuram no Top 25 atual. Entretanto, a ausência de uma correspondência à A09 no CWE Top 25 não diminui sua importância crítica para a segurança geral dos sistemas.
-
-A inclusão da A09 no OWASP Top 10 ressalta a importância de uma abordagem holística para a segurança. Apenas corrigir vulnerabilidades conhecidas não é suficiente se as organizações não tornarem uma prática contínua o monitoramento de suas aplicações e de sua infraestrutura para atividades suspeitas. [[5](#ref-5)] 
+O CWE Top 25 prioriza fraquezas técnicas mensuráveis, enquanto o OWASP inclui A09 para destacar a importância dessas práticas operacionais. Embora existam CWEs relacionadas, como CWE-778 (Insufficient Logging), elas não figuram no Top 25 atual. Entretanto, a ausência de uma correspondência à A09 no CWE Top 25 não diminui sua importância crítica para a segurança geral dos sistemas. A inclusão da A09 no OWASP Top 10 ressalta a importância de uma abordagem holística para a segurança. Apenas corrigir vulnerabilidades conhecidas não é suficiente se as organizações não tornarem uma prática contínua o monitoramento de suas aplicações e de sua infraestrutura para atividades suspeitas. [[5](#ref-5)] 
 
 
 ## Section References
