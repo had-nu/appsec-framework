@@ -10,14 +10,11 @@
 #### viii. Lista de Acônimos e Terminologias
 
 # PART I: INTRODUCTION AND GENERAL CONTEXT
-<details>
-<summary>
-- [Capítulo 1: Introdução](Part-I/1-0-CAP1-Introducao.md) <!-- Última parte --> </summary>
+- [Capítulo 1: Introdução](Part-I/1-0-CAP1-Introducao.md) <!-- Última parte -->
     - [1.1 Enquadramento](Part-I/1-1-Enquadramento.md)
     - [1.2 Justificativa](Part-I/1-2-Justificativa.md)
     - [1.3 Objetivos](Part-I/1-3-Objetivos.md)
     - [1.4 Estrutura do Documento](Part-I/1-4-Estrutura.md)
-</details>
 - [Capítulo 2: Metodologia de Investigação](Part-I/2-0-CAP2-Metodologia.md) <!-- Última parte -->
 
 # PART II: STATE OF THE ART AND THEORETICAL BASIS
