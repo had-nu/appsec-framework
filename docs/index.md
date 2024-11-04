@@ -1,46 +1,49 @@
 # INDEX
 
-### i. Licença e Distribuição
-### ii. Agradecimentos <!--mover para o README.md'-->
-### iii. Declaração de Integridade
-### iv. Lista de Imagens
-### v. Lista de Tabelas
-### vi. Resumo e Abstract
-### vii. Sumário
-### viii. Lista de Acônimos e Terminologias
+#### i. Licença e Distribuição
+#### ii. Agradecimentos <!--mover para o README.md'-->
+#### iii. Declaração de Integridade
+#### iv. Lista de Imagens
+#### v. Lista de Tabelas
+#### vi. Resumo e Abstract
+#### vii. Sumário
+#### viii. Lista de Acônimos e Terminologias
 
 # PART I: INTRODUCTION AND GENERAL CONTEXT
-- [Capítulo 1: Introdução](Part-I/1-0-Cap1-Introducao.md) <!-- Última parte -->
+- [Capítulo 1: Introdução](Part-I/1-0-CAP1-Introducao.md) <!-- Última parte -->
     - [1.1 Enquadramento](Part-I/1-1-Enquadramento.md)
     - [1.2 Justificativa](Part-I/1-2-Justificativa.md)
     - [1.3 Objetivos](Part-I/1-3-Objetivos.md)
     - [1.4 Estrutura do Documento](Part-I/1-4-Estrutura.md)
 
-- [Capítulo 2: Metodologia de Investigação](Part-I/2-0-Cap2-Metodologia.md) <!-- Última parte -->
+- [Capítulo 2: Metodologia de Investigação](Part-I/2-0-CAP2-Metodologia.md) <!-- Última parte -->
 
-# PART II: THEORETICAL BASIS IN CYBER AND APPLCIATION SECURITY
-- [Capítulo 3: Conceitos Fundamentais da Segurança Cibernética e Arquitetura de Segurança](Part-II/3-0-Cap3-Literatura-Rev.md)
-    - [3.1 Fundamentos da Segurança Cibernética](Part-II/3-0-Cap3-Literatura-Rev.md#3-1-0-CS-Fundamentos.md)
+# PART II: STATE OF THE ART AND THEORETICAL BASIS
+- [Capítulo 3: Revisão de Literatura: Conceitos Fundamentais da Segurança Cibernética e Arquitetura de Segurança Cibernérica](Part-II/3-0-CAP3-Literatura-Rev.md)
+    - [3.1 Cyber Security Fundamentals](Part-II/3-0-Cap3-Literatura-Rev.md#3-1-0-CS-Fundamentos.md)
         - [3.1.1 C.I.A. Triad](Part-II/3-1-CS-Fundamentos.md#cia-triad)
         - [3.1.2 Threat, Vulnerability and Risk Definitions](Part-II/3-1-CS-Fundamentos.md#threat)
         - [3.1.3 Likelihood vs Impact](Part-II/3-1-CS-Fundamentos.md#likelihood-vs-impact)
         - [3.1.4 Risk Tolerance vs Risk Appetite](Part-II/3-1-CS-Fundamentos.md#risk-tolerance-vs-risk-appetite)
-        - [3.1.5 Architectural and Defense Principles in Cybersecurity](Part-II/3-1-CS-Fundamentos.md#cyber-security-architecture)
-            - [3.1.5.1 Cyber Security Architecture]()
-            - [3.1.5.2 Zero Trust Architecture](Part-II/3-1-CS-Fundamentos.md#zero-trust-architecture)
-            - [3.1.5.3 Well-Architected Framework - WAF](Part-II/3-1-CS-Fundamentos.md#well-architected-framework-waf)
-            - [3.1.5.4 Defense in Depth - DiD](Part-II/3-2-AppSecFundamentals.md#defense-in-depth)
+    - [3.2 Cyber Security Architecture Fundamentals]()
+        - [3.2.1 Architectural and Defense Principles in Cybersecurity](Part-II/3-1-CS-Fundamentos.md#cyber-security-architecture)
+        - [3.2.2 Arquitetura de Referência](Part-II/3-1-CS-Fundamentos.md#3-2-2-Ref-Architecture.md)
+        - [3.2.3 Zero Trust Architecture](Part-II/3-1-CS-Fundamentos.md#zero-trust-architecture)
+        - [3.2.4 Well-Architected Framework - WAF](Part-II/3-1-CS-Fundamentos.md#well-architected-framework-waf)
+        - [3.2.5 Defense in Depth - DiD](Part-II/3-2-AppSecFundamentals.md#defense-in-depth)
     
-- [Capítulo 4: Fundamentos da Segurança de Aplicações](Part-I/4-0-AppSec-Fundamentals.md)
+- [Capítulo 4: Fundamentos da Segurança de Aplicações](Part-II/4-0-CAP4-AppSec-Fundamentals.md)
     - [4.1 Secure Software Development Lifecycle - SDLC](Part-II/4-0-AppSec-Fundamentals.md#SSDLC)
     - [4.2 Why Secure Code Metters: Secure Development Principles](Part-II/4-0-AppSec-Fundamentals.md#3-2-1-0-secure-dev-principles.md)
         - [4.2.1 Secure Code Practices](Part-II/4-0-AppSec-Fundamentals#3-2-1-1-secure-code-practices.md)
-            - [4.2.1.1 Input validation](Part-II/4-0-AppSec-Fundamentals)
-            - [4.2.1.2 User authentication/ authorization](Part-II/4-0-AppSec-Fundamentals)
-            - [4.2.1.3 Parameterized Queries](Part-II/4-0-AppSec-Fundamentals)
-            - [4.2.1.4 Error handling](Part-II/4-0-AppSec-Fundamentals)
-            - [4.2.1.5 Encryption](Part-II/4-0-AppSec-Fundamentals)
-            - [4.2.1.6 Code Review and Code Reuse](Part-II/4-0-AppSec-Fundamentals.md#code-review)
+            - [4.2.1.1 Enviroment Sanitizing](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.2 Access Control](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.3 Input validation](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.4 Parameterized Queries](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.5 Error handling](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.6 Hashing, Cryptography and Encryption](Part-II/4-0-AppSec-Fundamentals#)
+            - [4.2.1.7 Code Review and Code Reuse](Part-II/4-0-AppSec-Fundamentals.md#code-review#)
+            - [4.2.1.8 Anti-Tampering](Part-II/4-0-AppSec-Fundamentals.md#) <!-- ofuscação do código, checksums e assinaturas digitais, self-integrity checks, criptografia para dados sensíveis -->
     - [4.3 Vulnerability Databases](Part-II/4-0-AppSec-Fundamentals.md#vulnerability-databases)
         - [4.3.1 OWASP Top 10](Part-II/4-0-AppSec-Fundamentals#)
         - [4.3.2 CWE Top 25](Part-II/4-0-AppSec-Fundamentals#)
@@ -63,7 +66,7 @@
         - [4.7.5 Threat Modelling](Part-I/3-2-AppSecFundamentals.md#threat-modelling)
         - [4.7.6 API and Web Service Security](Part-I/3-2-AppSecFundamentals.md#api-and-web-service)
             
-- [Capítulo 5: Governação, Cultura e Modelos Organizacionais de Segurança]()
+- [Capítulo 5: Governação, Cultura e Modelos Organizacionais de Segurança](Part-II/5-0-CAP5-Gov-Cult-Org-Models-for-Sec.md)
     - [5.1 Cyber Security Governance](Part-I/AppSec-Fundamentals.md#cyber-security-governance)
         - [5.1.1 Business Alignment and Risk Management](Part-I/AppSec-Fundamentals.md#business-alignment)
         - [5.1.2 Communication and Business Resilience](Part-I/AppSec-Fundamentals.md#business-resilience)
@@ -71,7 +74,7 @@
         - [5.2.1 Strengthening Collaboration]()
         - [5.2.2 Engineering and Security Alignment]()
 
-- [Capítulo 6: Frameworks and Methodologies to Build More-Secured Applications](Part-I/3-3-0-SSDLC-frameworks-methods.md)
+- [Capítulo 6: Frameworks and Methodologies to Build More-Secured Applications](Part-II/6-0-CAP6-SSDLC-frameworks-methods.md)
     - [6.1 Normas e Diretrizes Globais]()   
         - [6.1.1 ISO/IEC 27001:2022 - Information security, cybersecurity and privacy protection — Information security controls](Part-I/3-3-0-SSDLC-frameworks-methods.md#/3-3-1-ISO27001.md)
         - [6.1.2. ISO/IEC 27034:2011-2018 — Information technology — Security techniques — Application security](Part-I/3-3-0-SSDLC-frameworks-methods.md#3-3-1-1-0-ISO27034.md) 
@@ -84,20 +87,20 @@
         - [6.3.2 Center for Internet SecurityCIS](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
 
 # PART III: THE APPLICATION SECURITY PROGRAM (ASP)
-- [Capítulo 7: Secure Development Lifecycle Integrity and Management: How to build and release More-Secure Code?](Part-II/4-0-Cap4-SDL-bases.md)      
+- [Capítulo 7: Secure Development Lifecycle Integrity and Management: How to build and release More-Secure Code?](Part-III/7-0-CAP7-SDL-bases.md)      
     - [7.1 Application Security Toolbox](Part-II/4-Cap4-SDL-bases.md#) <!-- componente teórico -->
         - [7.1.1 SAST, DAST, IAST and SCA]()
         - [7.1.2 Automated Pentesting, RASP and WAF]()
     - [7.2 Application Security Orchestration and Correlation - ASOC]()
 
-- [Capítulo 8: Decentralized Security Responsibility Model](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md)
+- [Capítulo 8: Decentralized Security Responsibility Model](Part-III/8-0-CAP8-Decentralized-security-responsibility-model.md)
     - [8.1 Application Security Team Composition](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md#)
         - [8.1.1 Key-Functions and Roles](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md#)
         - [8.1.2 The Security Champion Role](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md#)
     - [8.2 Security Education and Culture Building](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md#)
     - [8.3 Standards, Regulations, Requirements and Reference Architecture](Part-II/5-0-Cap5-Decentralized-security-responsibility-model.md#5-3-0-Standards-Regulations-RefArchitecture.md)
 
-- [Capítulo 9: Application Security as a Service (ASaaS)](Part-II/6-0-Cap6-AppSec-as-a-Service.md)
+- [Capítulo 9: Application Security as a Service (ASaaS)](Part-III/9-0-CAP9-AppSec-as-a-Service.md)
     - [9.1 ASaaS and Release-by-Risk Practices](Part-II/6-0-Cap6-AppSec-as-a-Service.md/#Release-by-Risk)
         - [9.1.1 Automation in Release-by-Risk Process]()
         - [9.1.2 Bloqueio vs Habilitação Segura]()
@@ -130,26 +133,26 @@
             - [9.2.6.2 Continuous Training for Security Culture Building]()
 
 # PART IV: APPLICATION SECURITY PROGRAM IMPLEMENTATION AND MANAGEMENT
-- [Capítulo 10: Building The Application Security Roadmap (ASR)](Part-III/7-0-Cap7-building-ASR.md#application-security-roadmap-asr)
+- [Capítulo 10: Building The Application Security Roadmap (ASR)](Part-IV/10-0-CAP10-building-ASR.md#)
     - [10.1 Maturity Models and Security Posture]()
     - [10.2 Identifing gaps to plan the future]()
     - [10.3 Handling Low-Maturity Security: How to Build a Risk Model for Applications?]()
         - [10.3.1 CVSS Ranking]() <!-- para contruir uma assessment apropriado do risco da aplicação -->
 
-- [Capítulo 11: Application Security Posture Management System (ASPMS)](Part-III/9-0-Cap9-building-ASPMS.md#)
+- [Capítulo 11: Application Security Posture Management System (ASPMS)](Part-IV/11-0-CAP11-building-ASPMS.md#)
     - [11.1 Measure to Evolve](Part-III/9-0-Cap9-building-ASPMS.md#)
     - [11.2 O que medir e como medir?](Part-III/9-0-Cap9-building-ASPMS.md#)
         - [11.2.1 MTTR](Part-III/9-0-Cap9-building-ASPMS.md#)
         - [11.2.2 Key Performance Indicators - KPIs](Part-III/9-0-Cap9-building-ASPMS.md#)
     - [11.3 Continuous Feedback and Adaptation](Part-III/9-0-Cap9-building-ASPMS.md#)
-    - [11.4 Continuous Assessment: Building a Application Security Scorecard](Part-III/9-0-Cap9-building-ASPMS.md#9-2-4-assessment-sec-score-card.md)
+    - [11.4 Continuous Assessment: Building a Application Security Scorecard](Part-III/9-0-Cap9-building-ASPMS.md#11-4-assessment-sec-score-card.md)
     - [11.5 Learning from mistakes: Incident Response and Learning](Part-III/9-0-Cap9-building-ASPMS.md#)
 
-- [Capítulo 12: Training Paths](Part-III/8-0-Cap8-training-paths.md#)
+- [Capítulo 12: Training Paths](Part-IV/12-0-CAP12-training-paths.md#)
     - [12.1 Security Champions Training Program - SCTP]()
     - [12.2 Training Roadmap for Devs and AppSec Teams]()
 
-- [Capítulo 13: Test Cases: Enabling Security Testing Aligned with the OWASP Top 10](Part-III/10-0-Cap10-case-studies.md)
+- [Capítulo 13: Test Cases: Enabling Security Testing Aligned with the OWASP Top 10](Part-IV/13-0-CAP13-test-cases.md)
     - [13.1 Attack Surface Validation](Part-I/3-2-AppSec-Fundamentals.md#attack-surface-validation)
     - [13.2 Automation of Vulnerability Testing (SAST, DAST, IAST)](Part-I/3-2-AppSec-Fundamentals.md#automation-of-vulnerability-testing-sast-dast-iast)
     - [13.3 Penetration Testing](Part-I/3-2-AppSec-Fundamentals.md#penetration-testing)
@@ -159,15 +162,15 @@
     - [13.7 Misuse and Abuse Cases](Part-I/3-2-AppSec-Fundamentals.md#misuse-and-abuse-cases)
     - [13.8 Anti-Tampering (Code Signing, Obfuscation)](Part-I/3-2-AppSec-Fundamentals.md#anti-tampering-code-signing-obfuscation)
 
-- [Capítulo 14: Challenges and Limitations](Part-III/11-0-Cap11-Challenges-Limitations.md) <!-- marcar bem como supera-los -->
+- [Capítulo 14: Challenges and Limitations](Part-IV/14-0-CAP14-Challenges-Limitations.md) <!-- marcar bem como supera-los -->
     - [14.1 Cultural Resistance and Organizational Barriers]()
     - [14.2 Lack of Security Assurance and Scope Creep]()
 
-# PART IV: FINAL CONSIDERATIONS
-- [Capítulo 15: Resultados, Discussão e Conclusão](Part-IV/resultados-e-discussao.md)
-- [Capítulo 16: Conclusão](Part-IV/Conclusao.md)
-- [Capítulo 17: Future Trends](Part-IV/ProximosPassos.md)
-- [References](Part-IV/Referencias.md)
-- [Bibliografia](Part-IV/Bibliografia.md)
-- [Apendix](Part-IV/Apendices.md)
-- [Anexos](Part-IV/Anexo.md)
+# PART V: FINAL CONSIDERATIONS
+- [Capítulo 15: Resultados, Discussão e Conclusão](Part-V/15-0-resultados-e-discussao.md)
+- [Capítulo 16: Conclusão](Part-V/16-0-Conclusao.md)
+- [Capítulo 17: Future Trends](Part-V/17-0-Future-trends.md)
+- [References](Part-V/References.md)
+- [Bibliografia](Part-V/Bibliografia.md)
+- [Apendix](Part-V/Apendix.md)
+- [Anexos](Part-V/Anexo.md)
