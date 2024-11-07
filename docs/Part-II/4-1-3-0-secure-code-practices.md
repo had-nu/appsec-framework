@@ -4,8 +4,8 @@ The transition from design to coding must be marked by a commitment to secure co
 
 ## Section References
 
-1. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-2. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-3. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-4. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
-5. <a name="ref-?"></a>[NOME DA REFERêNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+1. <a name="ref-?"></a>[NOME DA REFERÊNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+2. <a name="ref-?"></a>[NOME DA REFERÊNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+3. <a name="ref-?"></a>[NOME DA REFERÊNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+4. <a name="ref-?"></a>[NOME DA REFERÊNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->
+5. <a name="ref-?"></a>[NOME DA REFERÊNCIA](LINK PARA A REFERÊNCIA) <!-- REF-? -->

@@ -1,4 +1,5 @@
-# Capítulo 12: Training Paths
+## 12.2 Training Roadmap for Devs and AppSec Teams
+
 
 
 

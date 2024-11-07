@@ -1,4 +1,5 @@
-# Capítulo 12: Training Paths
+## 6.2.4 Microsoft Secure Development Lifecycle (SDL)
+
 
 
 

@@ -1,4 +1,6 @@
-# Capítulo 12: Training Paths
+## 6.2.1 OWASP Software Assurance Maturity Model (OWASP SAMM)
+
+
 
 
 

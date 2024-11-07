@@ -18,7 +18,7 @@
 - [Capítulo 2: Metodologia de Investigação](Part-I/2-0-CAP2-Metodologia.md) <!-- Última parte -->
 
 # PART II: STATE OF THE ART AND THEORETICAL BASIS
-- [Capítulo 3: Revisão de Literatura: Conceitos Fundamentais da Segurança Cibernética e Arquitetura de Segurança Cibernérica](Part-II/3-0-CAP3-Literatura-Rev.md)
+- [Capítulo 3: Conceitos Fundamentais da Segurança Cibernética e Arquitetura de Segurança Cibernérica](Part-II/3-0-CAP3-Fundamentals-CS-Arch.md)
     - [3.1 Cyber Security Fundamentals](Part-II/3-0-Cap3-Literatura-Rev.md#3-1-0-CS-Fundamentos.md)
         - [3.1.1 C.I.A. Triad](Part-II/3-1-CS-Fundamentos.md#cia-triad)
         - [3.1.2 The Our Side: what are we fighting for?]() <!-- para além da triade, o que de fato tentamos proteger? -->
@@ -33,7 +33,7 @@
         - [3.2.2 Arquitetura de Referência](Part-II/3-1-CS-Fundamentos.md#3-2-2-Ref-Architecture.md)
         - [3.2.3 Zero Trust Architecture](Part-II/3-1-CS-Fundamentos.md#zero-trust-architecture)
         - [3.2.4 Well-Architected Framework - WAF](Part-II/3-1-CS-Fundamentos.md#well-architected-framework-waf)
-        - [3.2.5 Defense in Depth - DiD](Part-II/3-2-AppSecFundamentals.md#defense-in-depth)
+        - [3.2.5 Defense in Depth - DiD](Part-II/3-2-AppSecFundamentals.md#defense-in-depth) <!-- Quais os tópicos principais deste tema? -->
     
 - [Capítulo 4: Segurança de Aplicações: o que é e porque é necessário?](Part-II/4-0-CAP4-AppSec-Fundamentals.md)
     - [4.1 Secure Software Development Lifecycle - SSDLC](Part-II/4-0-AppSec-Fundamentals.md#SSDLC)
@@ -65,12 +65,11 @@
     - [4.4 Development Strategy and Models](Part-II/3-2-AppSec-Fundamentals.md#development-strategy-and-plan)
         - [4.4.1 CI/CD and DevOps](Part-II/3-2-ppSec-Fundamentals.md#ci-cd)
         - [4.4.2 Build Security in DevOps Pipelines - DevSecOps](Part-II/AppSec-Fundamentals.md#devsecops)
-    - [4.5 From Right to the Left: Introducing Shift-left Security](Part-II/)
-        - [4.5.1 Benefits of Early Security Integration](Part-II/)
-            - [4.5.1.1 Improveing Compliance: Applicaiton Security Controls Library](Part-II/)
-            - [4.5.1.2 Enhanced Security and Risk Management](Part-II/)
-            - [4.5.1.3 Faster Time to Market](Part-II/)
-            - [4.5.1.4 Cost Efficiency](Part-II/)
+    - [4.5 From Right to the Left: Introducing Shift-left Security and the Benefits of Early Security Integration](Part-II/)
+        - [4.5.1 Improving Compliance: Applicaiton Security Controls Library](Part-II/4-0-CAP4-AppSec-Fundamentals#4-5-2-Compliance-AppSec-Controls-Lib.md)
+        - [4.5.2 Enhanced Security and Risk Management](Part-II/)
+        - [4.5.3 Faster Time to Market](Part-II/)
+        - [4.5.4 Cost Efficiency](Part-II/)
     - [4.6 Secure-by-Design Principles](Part-II/)
         - [4.6.1 Least Privilege](Part-II/3-2-AppSecFundamentals.md#least-privilege)
         - [4.6.2 Segregation of Duties (SoD)](Part-II/3-2-AppSecFundamentals.md#segregation-of-duties-sod)
@@ -88,17 +87,18 @@
         - [5.2.2 Engineering and Security Alignment](Part-II/)
 
 - [Capítulo 6: Frameworks and Methodologies to Build More-Secured Applications](Part-II/6-0-CAP6-SSDLC-frameworks-methods.md)
-    - [6.1 Normas e Diretrizes Globais](Part-II/)   
-        - [6.1.1 ISO/IEC 27001:2022 - Information security, cybersecurity and privacy protection — Information security controls](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-1-1-ISO27001.md)
-        - [6.1.2. ISO/IEC 27034:2011-2018 — Information technology — Security techniques — Application security](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-1-2-ISO27034.md) 
+    - [6.1 Leis, Normas e Diretrizes Globais](Part-II/)
+        - [6.1.1 Regra Geral de Proteção de Dados da União Europeia (EU-GDPR) e Legislação Portuguesa]()
+        - [6.1.2 ISO/IEC 27001:2022 - Information security, cybersecurity and privacy protection — Information security controls](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-1-1-ISO27001.md)
+        - [6.1.3. ISO/IEC 27034:2011-2018 — Information technology — Security techniques — Application security](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-1-2-ISO27034.md) 
     - [6.2 Estruturas de Implementação]()
-        - [6.2.1 OWASP Software Assurance Maturity Model (OWASP SAMM)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
-        - [6.2.2 OWASP Application Security Verification Standard (ASVS)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
-        - [6.2.3 NIST Secure Software Development Framework (SSDF)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
-        - [6.2.4 Microsoft Secure Development Lifecycle (SDL)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
+        - [6.2.1 OWASP Software Assurance Maturity Model (OWASP SAMM)](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-2-1-OWASP-SAMM.md)
+        - [6.2.2 OWASP Application Security Verification Standard (ASVS)](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-2-2-OWASP-ASVS.md)
+        - [6.2.3 NIST Secure Software Development Framework (SSDF)](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-2-3-NIST-SSDF.md)
+        - [6.2.4 Microsoft Secure Development Lifecycle (SDL)](Part-II/3-3-0-SSDLC-frameworks-methods.md#6-2-4-MS-SDL.md)
     - [6.3 Outras Abordagens Complementares](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
-        - [6.3.1 Building Security In Maturity Model (BSIMM)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)     
-        - [6.3.2 Center for Internet SecurityCIS](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
+        - [6.3.1 Building Security In Maturity Model (BSIMM)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
+        - [6.3.2 Center for Internet Security (CIS)](Part-II/3-3-0-SSDLC-frameworks-methods.md#)
 
 # PART III: THE APPLICATION SECURITY PROGRAM (ASP)
 - [Capítulo 7: Secure Development Lifecycle Integrity and Management: How to build and release More-Secure Code?](Part-III/7-0-CAP7-SDL-bases.md)      
@@ -108,11 +108,11 @@
     - [7.2 Application Security Orchestration and Correlation - ASOC](Part-III/)
 
 - [Capítulo 8: Decentralized Security Responsibility Model](Part-III/8-0-CAP8-Decentralized-security-responsibility-model.md)
-    - [8.1 Application Security Team Composition](Part-III/5-0-Cap5-Decentralized-security-responsibility-model.md#)
-        - [8.1.1 Key-Functions and Roles](Part-III/5-0-Cap5-Decentralized-security-responsibility-model.md#)
-        - [8.1.2 The Security Champion Role](Part-III/5-0-Cap5-Decentralized-security-responsibility-model.md#)
-    - [8.2 Security Education and Culture Building](Part-III/5-0-Cap5-Decentralized-security-responsibility-model.md#)
-    - [8.3 Standards, Regulations, Requirements and Reference Architecture](Part-III/5-0-Cap5-Decentralized-security-responsibility-model.md#5-3-0-Standards-Regulations-RefArchitecture.md)
+    - [8.1 Application Security Team Composition](Part-III/8-0-CAP8-Decentralized-security-responsibility-mode.md#)
+        - [8.1.1 Key-Functions and Roles](Part-III/8-0-CAP8-Decentralized-security-responsibility-mode.md#)
+        - [8.1.2 The Security Champion Role](Part-III/8-0-Cap5-Decentralized-security-responsibility-model.md#8-1-2-SecurityChampion-Role.md)
+    - [8.2 Security Education and Culture Building](Part-III/8-0-CAP8-Decentralized-security-responsibility-mode.md#8-2-0-Sec-Education-Cult-Building.md)
+    - [8.3 Standards, Regulations, Requirements and Reference Architecture](Part-III/8-0-CAP8-Decentralized-security-responsibility-mode.md#8-3-0-Standards-Regulations-RefArchitecture.md)
 
 - [Capítulo 9: Application Security as a Service (ASaaS)](Part-III/9-0-CAP9-AppSec-as-a-Service.md)
     - [9.1 ASaaS and Release-by-Risk Practices](Part-III/6-0-Cap6-AppSec-as-a-Service.md/#Release-by-Risk)
@@ -121,7 +121,7 @@
     - [9.2 Application Security as a Service Ecosystem](Part-III/)
         - [9.2.1 Secure Design](Part-III/)
             - [9.2.1.1 Just-in-Time Security Training](Part-III/)
-            - [9.2.1.2 Threat Modelling](Part-III/)
+            - [9.2.1.2 Threat Modelling Hands on](Part-III/)
             - [9.2.1.3 Reference Architecture](Part-III/)
         - [9.2.2 Automated Vulnerability Testing](Part-III/) <!-- detalhamento do componente prático e técnico-->
             - [9.2.2.1 SAST]()
@@ -151,7 +151,7 @@
     - [10.1 Maturity Models and Security Posture]()
     - [10.2 Identifing gaps to plan the future]()
     - [10.3 Handling Low-Maturity Security: How to Build a Risk Model for Applications?]()
-        - [10.3.1 CVSS Ranking]() <!-- para contruir uma assessment apropriado do risco da aplicação -->
+        - [10.3.1 CVSS Ranking]() <!-- para construir uma assessment apropriado do risco da aplicação -->
 
 - [Capítulo 11: Application Security Posture Management System (ASPMS)](Part-IV/11-0-CAP11-building-ASPMS.md#)
     - [11.1 Measure to Evolve](Part-IV/9-0-Cap9-building-ASPMS.md#)
@@ -162,9 +162,9 @@
     - [11.4 Continuous Assessment: Building a Application Security Scorecard](Part-IV9-0-Cap9-building-ASPMS.md#11-4-assessment-sec-score-card.md)
     - [11.5 Learning from mistakes: Incident Response and Learning](Part-IV/9-0-Cap9-building-ASPMS.md#)
 
-- [Capítulo 12: Training Paths](Part-IV/12-0-CAP12-training-paths.md#)
-    - [12.1 Security Champions Training Program - SCTP]()
-    - [12.2 Training Roadmap for Devs and AppSec Teams]()
+- [Capítulo 12: Training Paths](Part-IV/12-0-CAP12-training-paths#)
+    - [12.1 Security Champions Training Program - SCTP](Part-IV/12-0-CAP12-training-paths#12-1-0-SecurityChampion-TP.md)
+    - [12.2 Training Roadmap for Devs and AppSec Teams](Part-IV/12-0-CAP12-training-paths#12-2-0-TR-Devs-AppSec.md)
 
 - [Capítulo 13: Test Cases: Enabling Security Testing Aligned with the OWASP Top 10](Part-IV/13-0-CAP13-test-cases.md)
     - [13.1 Attack Surface Validation](Part-IV/3-2-AppSec-Fundamentals.md#attack-surface-validation)
