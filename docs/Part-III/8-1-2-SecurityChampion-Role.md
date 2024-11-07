@@ -10,22 +10,22 @@ Após identificarmos os profissionais dentro das equipes e formá-los em Securit
 
 ## Section References and Sources
 
-**NIST Special Publication 800-53**
+1. **NIST Special Publication 800-53**
 * **Título**: Security and Privacy Controls for Information Systems and Organizations
 * **Descrição**: Fornece um framework abrangente para o gerenciamento de riscos e a implementação de controles de segurança. Recomendado para orientar a definição de controles específicos no programa de AppSec.
 * **Link**: [NIST SP 800-53](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
 
-**OWASP SAMM (Software Assurance Maturity Model)**
+2. **OWASP SAMM (Software Assurance Maturity Model)**
 * **Título**: OWASP SAMM 2.0
 * **Descrição**: Oferece uma estrutura para avaliar e melhorar a segurança do software, focando em cinco domínios principais: Governança, Design, Implementação, Verificação e Operações. Útil para guiar a maturidade do programa de AppSec.
 * **Link**: [OWASP SAMM]
 
-**ISO/IEC 27034**
+3. **ISO/IEC 27034**
 * **Título**: Information Technology — Security Techniques — Application Security
 * **Descrição: Aborda práticas recomendadas para segurança de aplicativos, incluindo métodos de avaliação e implementação de medidas de segurança. Essencial para alinhar o programa de AppSec aos padrões internacionais.
 * **Link**: [ISO/IEC 27034]()
 
-**Microsoft Security Development Lifecycle (SDL)**
+4. **Microsoft Security Development Lifecycle (SDL)**
 * **Título**: SDL Practices
 * **Descrição**: Descreve um conjunto de práticas recomendadas que podem ser integradas ao ciclo de vida de desenvolvimento de software para melhorar a segurança. Adequado para incorporar práticas de segurança desde o início do desenvolvimento de aplicativos.
 * **Link**: [Microsoft SDL](https://www.microsoft.com/en-us/securityengineering/sdl)
