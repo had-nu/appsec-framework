@@ -6,19 +6,28 @@ O ASVS fornece requisitos com declarações básicas verificáveis que podem ser
 
 Por exemplo, ao expandirmos o requisito 1.1.2 da seção “V1 Arquitetura, Design e Modelagem de Ameaças”, do ASVS 4.0.3, que foca no Ciclo de Vida de Desenvolvimento Seguro:
 
-| 1.1.2  | Verificar o uso da modelagem de ameaças para cada alteração de design ou planejamento de sprint para identificar ameaças, planejar contramedidas, facilitar respostas apropriadas a riscos e orientar testes de segurança. |
+| 1.1.2       | Verificar o uso da modelagem de ameaças para cada alteração de design ou planejamento de sprint para identificar ameaças, planejar contramedidas, facilitar respostas apropriadas a riscos e orientar testes de segurança.     |
+| ------------- |:-------------|
 
 Ao trazer o requisito para a perspectiva do usuário, administrador ou agente de ameaça através de user stories é possível descrever a funcionalidade com base no que o usuário quer que o sistema faça por ele:
 
-| Como desenvolvedor, eu devo ser capaz de utilizar a Modelação de Ameaças para cada alteração de design, para identificar ameaças potenciais e planear contramedidas eficazes.   |
-|   Como gerente de projetos, eu devo ser capaz de incluir a Modelação de Ameaças no planeamento de cada sprint, para garantir que as ameaças sejam identificadas e tratadas proativamente. |
-|   Como testador de segurança, eu devo ser capaz de utilizar os resultados da Modelação de Ameaças para orientar meus testes de segurança, para facilitar as respostas apropriadas aos riscos identificados.   |
+```
+Como desenvolvedor, eu devo ser capaz de utilizar a Modelação de Ameaças para cada alteração de design, 
+para identificar ameaças potenciais e planear contramedidas eficazes.
+
+Como gerente de projetos, eu devo ser capaz de incluir a Modelação de Ameaças no planeamento de cada sprint, 
+para garantir que as ameaças sejam identificadas e tratadas proativamente.
+
+Como testador de segurança, eu devo ser capaz de utilizar os resultados da Modelação de Ameaças para orientar meus testes de segurança, 
+para facilitar as respostas apropriadas aos riscos identificados.
+```
 
 Ao trazer o requisito para a perspectiva do agente de ameaça, temos um caso de uso indevido:
 
-`Como invasor, eu devo ser capaz de explorar uma alteração de design que não passou por uma modelagem de ameaças, para comprometer a segurança do sistema.`
-
-`Como invasor, eu devo ser capaz de explorar uma falha não testada devido à falta de testes de segurança direcionados pela modelagem de ameaças, para explorar as falhas que foram mal endereçadas.`
+| Misuse/Abuse Cases  |
+| :-------------|
+| *Como invasor, eu devo ser capaz de explorar uma alteração de design que não passou por uma modelagem de ameaças, para comprometer a segurança do sistema.*   |
+| *Como invasor, eu devo ser capaz de explorar uma falha não testada devido à falta de testes de segurança direcionados pela modelagem de ameaças, para explorar as falhas que foram mal endereçadas.*  |
 
 Cada requisito do ASVS é identificado por um código no formato `<chapter>.<section>.<requirement>`. Por exemplo, o requisito 1.11.3 se refere a um controle específico dentro da seção 11 do capítulo 1 (Arquitetura). Esta estrutura ajudará a mapear claramente os requisitos de segurança para capacidades específicas que os desenvolvedores devem incorporar nas aplicações.
 
